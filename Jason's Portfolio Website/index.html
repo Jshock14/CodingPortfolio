@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason's Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Portfolio</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About Me</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#skills" class="navbar__links" id="skills-page">Skills</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#contact-me" class="button" id="contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading">Hi, I'm Jason Schacher</h1>
+            <p class="hero__description">Welcome to my portfolio website</p>
+            <button class="main__btn"><a href="#">Explore</a></button>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card">
+                    <img src="images/programming.svg" alt="Image">
+                </div>
+            </div>
+            <div class="main__content">
+                <h1>About Me</h1>
+                <p>I'm a Junior at Lake Forest High School in Illinois</p>
+                <p>I love programming</p>
+                <p>Soccer, wrestling, track, math, robotics, and chess</p>
+                <p>Check out my personal project: <a href="https://thesportslocker.godaddysites.com">The Sports Locker</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Skills Section -->
+    <div class="skills" id="skills">
+        <h1>My Skills</h1>
+        <div class="skills__wrapper">
+            <div class="skills__card">
+                <img src="images/java.png" alt="Java">
+            </div>
+            <div class="skills__card">
+                <img src="images/python.png" alt="Python">
+            </div>
+            <div class="skills__card">
+                <img src="images/javaScript.png" alt="JavaScript">
+            </div>
+            <div class="skills__card">
+                <img src="images/htmlcss.png" alt="HTML/CSS">
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="main" id="contact-me">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Contact Me</h1>
+                <p>Get in touch with me!</p>
+                <p>Reach out via email:</p>
+                <p>Personal: jschacher14@yahoo.com</p>
+                <p>School: 2370037@lfschools.net</p>
+                <button class="contact__btn"><a href="#contact-me">Contact</a></button>
+            </div>
+            <div class="main__img--container">
+                <div class="main__img--card">
+                    <img src="images/contact.svg" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Me</h2>
+                    <a href="/">School</a>
+                    <a href="/">Hobbies</a>
+                    <a href="/">Family</a>
+                    <a href="/">Coding</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Me</h2>
+                    <a href="/">Contact</a>
+                    <a href="/">Support</a>
+                    <a href="/">Parternships</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Resume</h2>
+                    <a href="/">Projects</a>
+                    <a href="/">Stats</a>
+                    <a href="/">Experience</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/">Instagram</a>
+                    <a href="/">Facebook</a>
+                    <a href="/">Youtube</a>
+                    <a href="/">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">Jason's Portfolio</a>
+                </div>
+                <p class="website__rights">© Jason Schacher 2022. All rights reserved.</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link"><i class="fab fa-facebook"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
